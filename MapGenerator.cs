@@ -143,8 +143,8 @@ public class MapGenerator : MonoBehaviour
     /// this in a unity only function
     /// it draws a visual aid tot he screen, which is used to represent the generated map
     /// it loop through the grid array and if the stored number is 
-    /// 1 -- it is a wall therefore a black tile
-    /// 2 -- is is a floor theredore a white tile
+    /// 0 -- it is a wall therefore a black tile
+    /// 1 -- is is a floor therefore a white tile
     /// it also uses a vector3 to set the position of the tile based on the loop position and the size of the map
     /// </summary>
     void OnDrawGizmos()
